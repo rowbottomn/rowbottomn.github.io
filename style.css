@@ -29,8 +29,10 @@ p{
 .profile{
   width:100%;
   display: flex;
+  background-color: steelblue;
   flex-flow: row wrap;
   justify-content:  space-around;
+  align-content:  space-around;
 }
 
 .about{
@@ -42,7 +44,8 @@ p{
 .img-holder{
   width: 30%;
   min-width: 300px;
-
+  display: flex;
+  align-content: space-around;
 }
 
 
@@ -50,4 +53,10 @@ img{
   width : 100%;
   display:block;
   margin:auto;
+}
+
+@media(max-width : 200px){
+  p{
+    font-size:10px;
+  }
 }
