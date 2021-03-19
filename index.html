@@ -1,72 +1,54 @@
 <!--Nathan Rowbottom STEAM Academy 
-    Started June 2020-->
+    Started June 2020
+    Updating Mar 2021
+    -->
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Nathan Rowbottom: Professional Portfolio</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div id = "container">
-      <div id = "title">
-        <h1>Nathan Rowbottom</h1>
-      </div title>
 
-      <div class="profile">
-        <div class="about">
-          <h2>About Nathan Personally</h2>
-          <p>
-            Nathan Rowbottom has acquired a variety of interests and off-beat pursuits over the years including : fossils, sustainable development, physics and computer programming. He grew up in Brantford, and although he left to pursue higher education, he has always lived on the Haldimand Tract and near the Grand River.
-          </p>
-        </div about>
-        <div id = "personal-img" class = "img-holder">
-          <img src = "/images/mecloseup.jpg">
-        </div img-holder>
-      </div profile>
-            <div class="profile">
-        <div class="about">
-          <h2>About Nathan Professionally</h2>
-          <p>
-            Nathan Rowbottom recently left his position of 13 years with the Halton School Board to join the STEAM Academy at Six Nations Polytechnic. Nathan made the change to fulfil a lifelong dream of empowering youth to make contributions to Haudinosaunee culture and language using the latest tool technology has to offer. His current projects are both ambitious and numerous as he struggles to find the right place to put his focus on.
-          </p>
-        </div about>
-        <div  class = "img-holder">
-          <img src = "/images/SNPSTEAMLogo.jpeg">
-        </div img-holder>
-      </div profile>
-      <div class = "notables">
-          <h2>Past Notable Projects / Achievments</h2>
-          <ul>
-            <li>2014 Halton District School Board Innovation Grant Recipent : Adding Solar Panels Hands On to 9 Electricity Unit</li>
-            <li>2016 Speaker at the Halton Information Network (HALINET) Conference : Increasing Diversity in Programming Courses</li>
-            <li>2018 Speaker at Fundy Geological Society Conference: Machine Learning Apps to Engage Citizen Scientists 
-            <li>2018 Halton District School Board Innovation Grant Recipent: Using Custom Apps to Improve Feedback and Reflection</li>
-            <li>2018-2019 Teacher Lead for Halton App Development Specialist High Skills Major Program</li>
-            <li>2019 Speaker at the Internation Conference for Indigenous Language: Experiences in Developing Custom Machine Learning Translation Models</li>
-            <li>2019-2020 Amazon Web Sevices Educate Ambassador</li>
-          </ul>
-      </div notables>  
-      <div class = "notables">
-          <h2>Current Notable Projects</h2>
-          <ul>
-            <li>Ohnegíyo : A water sampling project with collaboration with IBM.</li>
-            <li>VR Experiences to support to adult language learners</li>
-            <li>Fingershaker Iphone App : A traditional Haudinosaunee game.</li>
-            <li>IBM PTECH Lead Teacher</li>
-          </ul>
-      </div notables>
-            <div class = "notables">
-          <h2>Future Ambitionss</h2>
-          <ul>
-            <li>Not for profit to build food capicity in northern native communities</li>
-            <li>Consulting on Technologies to Support Native Language Programs</li>
-            <li>To develop a space for conservation and sustainable development</li>
-            <li>To develop apps to support indigenous language learners</li>
-          </ul>
-      </div notables>
-    </div container>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Nathan Rowbottom: Professional Portfolio</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&effect=neon|3d&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+	</script>
+    <script src="script.js"></script>
+</head>
 
-  </body>
+<body onpageshow="setActiveLink()">
+	<div id="container">
+		<div id="title">
+			<h1 class="font-effect-3d">Nathan Rowbottom</h1>
+		</div title>
+		<nav class="navbar">
+			<a href="index.html"> <i class = "material-icons active" title = "home">home</i></a>
+      <a href = "profile.html"> <i class = "material-icons" >account_circle</i></a>
+      <a href = "awards.html"> <i class = "material-icons" >new_releases</i></a>
+      <a href = "current_work.html"> <i class = "material-icons" >build_circle</i></a>
+      <a href = "portfolio.html"> <i class = "material-icons" >auto_awesome</i></a>
+		</nav>
+		<div class="profile">
+			<div class="about">
+				<h2>Nathan Rowbottom : TLDB <br>(Too Long Didn't Browse)</h2>
+				<p>
+					Nathan Rowbottom is an incessant learner.  He loves to come up with new ideas and possibilities. He is currently learning / teaching WebVR, AWS Virtual Machines, ML models for agent training and sensor monitoring, and how to make effective apps for learning indigenous languages.
+				</p>
+        <p>
+          As an educator, he is a big believer in the intrinsic motivation that comes from the creative process.  He feels that the role of a 21st Century Teacher is to come up with 'ungooglable' problems and to mentor students on how to solve them.
+        </p>
+        <p>
+          Nathan Rowbottom has always sought out a role in teaching other teachers and trying to challenge the educational paradigm.  He has always played a role in helping other teachers to learn new skills and transform their practices.  He is currently most interested in introducing new ways to encourage students to reflect on their learning, thus completing the medicine wheel of Teaching: modelling, assessment, feedback and reflection.
+        </p>
+			</div about>
+			<div id="personal-img" class="img-holder">
+				<img src = "/assets/images/mecloseup.jpg">
+      </div img-holder>
+    </div profile>
+  </div container>
+
+
+</body>
 </html>
