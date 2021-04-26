@@ -10,6 +10,7 @@ function setActiveLink(){
     if (url == (test.pathname)) {
          // icons[i].addClass("active");
       icons[i].setAttribute("class", "material-icons active");
+      
       console.log("icon: " + i);
       console.log(icons[i])
           //for making parent of submenu active
